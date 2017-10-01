@@ -17,7 +17,8 @@ public class App extends Application {
         super.onCreate();
         context = getApplicationContext();
         phonePreferences = getSharedPreferences("data", MODE_PRIVATE);
-        addKeyValuePairOrDoNothing("10.5-6", "13988717437", phonePreferences);
+        addKeyValuePairOrDoNothing("千里雅阁", "13988717437", phonePreferences);
+        addKeyValuePairOrDoNothing("天净苑", "18108804756\n", phonePreferences);
     }
 
     //如果key存在就只是返回false，否则将键值对存入sharedPreferences

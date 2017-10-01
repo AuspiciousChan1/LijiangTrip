@@ -2,6 +2,12 @@
     <string name="app_name">丽江之行</string>
     <string name="not_found">找不到资源</string>
 
+    <string name="tian_jing_yuan">天净苑</string>
+    <string name="qian_li_ya_ge">千里雅阁</string>
+    <string name="ge_ze_er_jia">格则尔家</string>
+    <string name="hao_lin_jiu_dian">豪麟酒店</string>
+
+
     <string name="attraction">景点</string>
     <string name="translation">交通</string>
     <string name="food">食物</string>

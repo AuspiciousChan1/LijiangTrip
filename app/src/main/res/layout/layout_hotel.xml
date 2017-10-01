@@ -10,5 +10,35 @@
             android:text="@string/hotel"
             android:textSize="50sp"
     />
+    <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    >
+        <Button
+                android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/tian_jing_yuan"
+        />
+        <Button
+                android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/qian_li_ya_ge"
+        />
+        <Button
+                android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/ge_ze_er_jia"
+        />
+        <Button
+                android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/hao_lin_jiu_dian"
+        />
+    </LinearLayout>
+    <TextView
+            android:id="@+id/textViewInformation"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text=""
+    />
 
 </LinearLayout>
