@@ -13,13 +13,20 @@
         <LinearLayout
                 android:layout_width="match_parent" android:layout_height="0dp"
                 android:layout_weight="9"
+                android:orientation="vertical"
                 tools:layout_editor_absoluteY="-20dp" tools:layout_editor_absoluteX="8dp">
-            <android.support.v4.view.ViewPager
-                    android:layout_width="match_parent" android:layout_height="match_parent">
-
-            </android.support.v4.view.ViewPager>
+            <TextView android:id="@+id/textViewInformation"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text=""
+            />
+            <MyViews.MyViewPager
+                    android:id="@+id/myViewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+            </MyViews.MyViewPager>
         </LinearLayout>
         <LinearLayout
+                android:id="@+id/linearLayoutBottom"
                 android:layout_width="match_parent" android:layout_height="0dp"
                 android:layout_weight="1"
                 tools:layout_editor_absoluteY="-22dp" tools:layout_editor_absoluteX="8dp"
@@ -28,7 +35,7 @@
                     android:id="@+id/viewAttractions"
                     android:layout_width="0dp" android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/the_tower"
+                    android:background="@drawable/attractions"
             />
             <View
                     android:id="@+id/viewTranslation"
@@ -46,7 +53,7 @@
                     android:id="@+id/viewHotel"
                     android:layout_width="0dp" android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/bed"
+                    android:background="@drawable/hotel"
             />
         </LinearLayout>
 

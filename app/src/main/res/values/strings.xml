@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">LijiangTrip</string>
+    <string name="app_name">丽江之行</string>
+    <string name="not_found">找不到资源</string>
+
+    <string name="attraction">景点</string>
+    <string name="translation">交通</string>
+    <string name="food">食物</string>
+    <string name="hotel">旅馆</string>
 </resources>
